@@ -1,0 +1,12 @@
+#ex04.py
+#Braian Matheus Couto
+#Objetivo: Celsius para Fahrenheit
+
+#Aqui o sistema le oque o usuario escreve e coloca na variável temp
+temp = float(input("Digite uma temperatura em graus celsius:"))
+
+#aqui o sistema faz a formúla de cel em fah
+fah = temp * 1.8 + 32
+
+#aqui o sistema mostra o resultado ao usuário
+print(f"Valor em fahrenheit:{fah}°F")
